@@ -1,0 +1,1 @@
+./out/ort_infer weights/yolov5s.onnx images/bus.jpg
