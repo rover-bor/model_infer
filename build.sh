@@ -4,5 +4,5 @@ else
     rm -r build && mkdir build && cd build
 fi
 
-cmake ..
+cmake  ..
 make

@@ -1,7 +1,7 @@
 #include "utils.h"
 
 
-void plotImage(cv::Mat image, bool show)
+void plotImage(cv::Mat image, bool show=false)
 {
     if (show)
     {

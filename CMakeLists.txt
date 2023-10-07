@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.16.3)
 
 project(ort_infer)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/out)
-set(ONNXRUNTIME_DIR /home/chenliangjin/chenliangjin/Cpp_project/onnxruntime-linux-x64-gpu-1.12.0)
+# set(ONNXRUNTIME_DIR /home/chenliangjin/chenliangjin/Cpp_project/onnxruntime-linux-x64-gpu-1.12.0)
+set(ONNXRUNTIME_DIR /home/liangjinchen/project/cpp_project/onnxruntime-linux-x64-gpu-1.12.0)
 
 # find required opencv
 find_package(OpenCV REQUIRED)

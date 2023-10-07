@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #include "Detector.h"
 using namespace std;
 
@@ -23,6 +24,19 @@ int main(int argc, char* argv[]){
 
     cout << "data preprocess ..." << endl;
     cv::Mat image = preProcess(image_path, sp_param.input_size);
+    // cout << image.data << endl;
+    // cout << "dims: " << image.dims << endl;
+    // cout << "size: " << image.size << endl;
+    // cout << image.step1(0) << endl;
+    // cout << image.step1(1) << endl;
+    // cout << image.step[0] << endl;
+    // cout << image.step[1] << endl;
+    // cout << image.elemSize() << endl;
+    // cout << image.elemSize1() << endl;
+    // double minVal, maxVal;
+    // minMaxLoc(image, &minVal, &maxVal);
+    // cout << minVal << endl;
+    // cout << maxVal << endl;
 
     cout << "onnx inference ..." << endl;
 
